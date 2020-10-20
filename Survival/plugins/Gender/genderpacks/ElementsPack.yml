@@ -1,0 +1,361 @@
+pack:
+  name: ElementsPack
+  author: LaxWasHere
+  website: https://www.spigotmc.org/resources/33217/
+  version: 0.1
+  enabled: false
+genders:
+  Hydrogen:
+    description: Hydrogen Gender
+    pronoun: H
+  Helium:
+    description: Helium Gender
+    pronoun: He
+  Lithium:
+    description: Lithium Gender
+    pronoun: Li
+  Beryllium:
+    description: Beryllium Gender
+    pronoun: Be
+  Boron:
+    description: Boron Gender
+    pronoun: B
+  Carbon:
+    description: Carbon Gender
+    pronoun: C
+  Nitrogen:
+    description: Nitrogen Gender
+    pronoun: N
+  Oxygen:
+    description: Oxygen Gender
+    pronoun: O
+  Fluorine:
+    description: Fluorine Gender
+    pronoun: F
+  Neon:
+    description: Neon Gender
+    pronoun: Ne
+  Sodium:
+    description: Sodium Gender
+    pronoun: Na
+  Magnesium:
+    description: Magnesium Gender
+    pronoun: Mg
+  Aluminum:
+    description: Aluminum Gender
+    pronoun: Al
+  Silicon:
+    description: Silicon Gender
+    pronoun: Si
+  Phosphorus:
+    description: Phosphorus Gender
+    pronoun: P
+  Sulfur:
+    description: Sulfur Gender
+    pronoun: S
+  Chlorine:
+    description: Chlorine Gender
+    pronoun: Cl
+  Argon:
+    description: Argon Gender
+    pronoun: Ar
+  Potassium:
+    description: Potassium Gender
+    pronoun: K
+  Calcium:
+    description: Calcium Gender
+    pronoun: Ca
+  Scandium:
+    description: Scandium Gender
+    pronoun: Sc
+  Titanium:
+    description: Titanium Gender
+    pronoun: Ti
+  Vanadium:
+    description: Vanadium Gender
+    pronoun: V
+  Chromium:
+    description: Chromium Gender
+    pronoun: Cr
+  Manganese:
+    description: Manganese Gender
+    pronoun: Mn
+  Iron:
+    description: Iron Gender
+    pronoun: Fe
+  Cobalt:
+    description: Cobalt Gender
+    pronoun: Co
+  Nickel:
+    description: Nickel Gender
+    pronoun: Ni
+  Copper:
+    description: Copper Gender
+    pronoun: Cu
+  Zinc:
+    description: Zinc Gender
+    pronoun: Zn
+  Gallium:
+    description: Gallium Gender
+    pronoun: Ga
+  Germanium:
+    description: Germanium Gender
+    pronoun: Ge
+  Arsenic:
+    description: Arsenic Gender
+    pronoun: As
+  Selenium:
+    description: Selenium Gender
+    pronoun: Se
+  Bromine:
+    description: Bromine Gender
+    pronoun: Br
+  Krypton:
+    description: Krypton Gender
+    pronoun: Kr
+  Rubidium:
+    description: Rubidium Gender
+    pronoun: Rb
+  Strontium:
+    description: Strontium Gender
+    pronoun: Sr
+  Yttrium:
+    description: Yttrium Gender
+    pronoun: Y
+  Zirconium:
+    description: Zirconium Gender
+    pronoun: Zr
+  Niobium:
+    description: Niobium Gender
+    pronoun: Nb
+  Molybdenum:
+    description: Molybdenum Gender
+    pronoun: Mo
+  Technetium:
+    description: Technetium Gender
+    pronoun: Tc
+  Ruthenium:
+    description: Ruthenium Gender
+    pronoun: Ru
+  Rhodium:
+    description: Rhodium Gender
+    pronoun: Rh
+  Palladium:
+    description: Palladium Gender
+    pronoun: Pd
+  Silver:
+    description: Silver Gender
+    pronoun: Ag
+  Cadmium:
+    description: Cadmium Gender
+    pronoun: Cd
+  Indium:
+    description: Indium Gender
+    pronoun: In
+  Tin:
+    description: Tin Gender
+    pronoun: Sn
+  Antimony:
+    description: Antimony Gender
+    pronoun: Sb
+  Tellurium:
+    description: Tellurium Gender
+    pronoun: Te
+  Iodine:
+    description: Iodine Gender
+    pronoun: I
+  Xenon:
+    description: Xenon Gender
+    pronoun: Xe
+  Cesium:
+    description: Cesium Gender
+    pronoun: Cs
+  Barium:
+    description: Barium Gender
+    pronoun: Ba
+  Lanthanum:
+    description: Lanthanum Gender
+    pronoun: La
+  Cerium:
+    description: Cerium Gender
+    pronoun: Ce
+  Praseodymium:
+    description: Praseodymium Gender
+    pronoun: Pr
+  Neodymium:
+    description: Neodymium Gender
+    pronoun: Nd
+  Promethium:
+    description: Promethium Gender
+    pronoun: Pm
+  Samarium:
+    description: Samarium Gender
+    pronoun: Sm
+  Europium:
+    description: Europium Gender
+    pronoun: Eu
+  Gadolinium:
+    description: Gadolinium Gender
+    pronoun: Gd
+  Terbium:
+    description: Terbium Gender
+    pronoun: Tb
+  Dysprosium:
+    description: Dysprosium Gender
+    pronoun: Dy
+  Holmium:
+    description: Holmium Gender
+    pronoun: Ho
+  Erbium:
+    description: Erbium Gender
+    pronoun: Er
+  Thulium:
+    description: Thulium Gender
+    pronoun: Tm
+  Ytterbium:
+    description: Ytterbium Gender
+    pronoun: Yb
+  Lutetium:
+    description: Lutetium Gender
+    pronoun: Lu
+  Hafnium:
+    description: Hafnium Gender
+    pronoun: Hf
+  Tantalum:
+    description: Tantalum Gender
+    pronoun: Ta
+  Tungsten:
+    description: Tungsten Gender
+    pronoun: W
+  Rhenium:
+    description: Rhenium Gender
+    pronoun: Re
+  Osmium:
+    description: Osmium Gender
+    pronoun: Os
+  Iridium:
+    description: Iridium Gender
+    pronoun: Ir
+  Platinum:
+    description: Platinum Gender
+    pronoun: Pt
+  Gold:
+    description: Gold Gender
+    pronoun: Au
+  Mercury:
+    description: Mercury Gender
+    pronoun: Hg
+  Thallium:
+    description: Thallium Gender
+    pronoun: Tl
+  Lead:
+    description: Lead Gender
+    pronoun: Pb
+  Bismuth:
+    description: Bismuth Gender
+    pronoun: Bi
+  Polonium:
+    description: Polonium Gender
+    pronoun: Po
+  Astatine:
+    description: Astatine Gender
+    pronoun: At
+  Radon:
+    description: Radon Gender
+    pronoun: Rn
+  Francium:
+    description: Francium Gender
+    pronoun: Fr
+  Radium:
+    description: Radium Gender
+    pronoun: Ra
+  Actinium:
+    description: Actinium Gender
+    pronoun: Ac
+  Thorium:
+    description: Thorium Gender
+    pronoun: Th
+  Protactinium:
+    description: Protactinium Gender
+    pronoun: Pa
+  Uranium:
+    description: Uranium Gender
+    pronoun: U
+  Neptunium:
+    description: Neptunium Gender
+    pronoun: Np
+  Plutonium:
+    description: Plutonium Gender
+    pronoun: Pu
+  Americium:
+    description: Americium Gender
+    pronoun: Am
+  Curium:
+    description: Curium Gender
+    pronoun: Cm
+  Berkelium:
+    description: Berkelium Gender
+    pronoun: Bk
+  Californium:
+    description: Californium Gender
+    pronoun: Cf
+  Einsteinium:
+    description: Einsteinium Gender
+    pronoun: Es
+  Fermium:
+    description: Fermium Gender
+    pronoun: Fm
+  Mendelevium:
+    description: Mendelevium Gender
+    pronoun: Md
+  Nobelium:
+    description: Nobelium Gender
+    pronoun: 'No'
+  Lawrencium:
+    description: Lawrencium Gender
+    pronoun: Lr
+  Rutherfordium:
+    description: Rutherfordium Gender
+    pronoun: Rf
+  Dubnium:
+    description: Dubnium Gender
+    pronoun: Db
+  Seaborgium:
+    description: Seaborgium Gender
+    pronoun: Sg
+  Bohrium:
+    description: Bohrium Gender
+    pronoun: Bh
+  Hassium:
+    description: Hassium Gender
+    pronoun: Hs
+  Meitnerium:
+    description: Meitnerium Gender
+    pronoun: Mt
+  Darmstadtium:
+    description: Darmstadtium Gender
+    pronoun: Ds
+  Roentgenium:
+    description: Roentgenium Gender
+    pronoun: Rg
+  Copernicium:
+    description: Copernicium Gender
+    pronoun: Cn
+  Nihonium:
+    description: Nihonium Gender
+    pronoun: Nh
+  Flerovium:
+    description: Flerovium Gender
+    pronoun: Fl
+  Moscovium:
+    description: Moscovium Gender
+    pronoun: Mc
+  Livermorium:
+    description: Livermorium Gender
+    pronoun: Lv
+  Tennessine:
+    description: Tennessine Gender
+    pronoun: Ts
+  Oganesson:
+    description: Oganesson Gender
+    pronoun: Og

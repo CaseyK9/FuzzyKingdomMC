@@ -1,0 +1,15 @@
+global:
+  auto updater:
+    notify: true
+    download: false
+    delay: 43200
+  metrics: true
+  background compiler: true
+  debug: false
+  detailed error: false
+  script engine: JavaScript
+coins-name: FurCoins
+coins-per-30-min: 20
+new-player-coins: 50
+coins-per-day: 5
+gifting-yourself: false

@@ -1,0 +1,44 @@
+[
+  {
+    "uuid": "c01d7dcf-607d-3b28-92e0-6907f75dc171",
+    "name": "Le_Major_Oof",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8a234b89-5edb-3000-9571-5cbb3235981e",
+    "name": "DisketteFurry",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "91271f2f-553b-322a-beb1-94d6028ed57d",
+    "name": "HyenaLtd",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "99f54d51-8741-390e-adf6-3ba9e8f6f769",
+    "name": "Lr_selected",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "73f0bad8-6bfe-3549-90e7-3e6d6519291e",
+    "name": "FoxLtd",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cb7a57ab-4b8f-356f-b713-2132ef3cd843",
+    "name": "Scar_The_Folf",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "365f8266-13e8-3e9d-b186-fea04265fbaf",
+    "name": "AMROtheProtogen",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

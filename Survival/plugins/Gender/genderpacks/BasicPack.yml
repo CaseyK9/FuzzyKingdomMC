@@ -1,0 +1,13 @@
+pack:
+  name: BasicPack
+  author: LaxWasHere
+  website: https://www.spigotmc.org/resources/33217/
+  version: 0.1
+  enabled: true
+genders:
+  Male:
+    description: Male
+    pronoun: He
+  Female:
+    description: Female
+    pronoun: She

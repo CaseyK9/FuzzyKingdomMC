@@ -1,0 +1,129 @@
+#-----------------------------------------------------------------  
+# SimpleLogin v2 - by RossRao
+
+# Available Placeholders:
+# %player% - Get the players name
+# %playerdisplayname% - Get the players display name
+# %prefix% - Get the plugins prefix
+# %world% - Get the players current world
+#-----------------------------------------------------------------
+
+
+# Utility Messages
+Prefix: '&8[&9SimpleLogin&8]'
+noPermission: '%prefix% &cYou do not have permission to do that!'
+pluginReload: '&8<&a&l*&8> &7SimpleLogin: &aReloaded'
+unknownArgument: '&8<&c&l*&8> &cThat argument does not exist, silly.'
+
+
+# Join/Quit Message Options
+joinMessage:
+  Enabled: true
+  Message: '&8<&a+&8> &a%player%'
+  
+firstJoinMessage:
+  Enabled: true
+  Message: '&8<&a&l*&8> &a&n%player%&r &ahas joined the Server for the First Time! &8<&a&l*&8>'
+
+quitMessage:
+  Enabled: true
+  Message: '&8<&c-&8> &c%player%'
+
+
+# Firework Options
+Firework:
+  Join: true
+  FirstJoin: true
+
+
+# Sound Options
+# Available Sounds:
+# [Older Versions] https://www.spigotmc.org/wiki/cc-sounds-list/ 
+# [Newer Versions] https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+joinSound:
+  Enabled: false
+  Sound: ''
+
+firstJoinSound:
+  Enabled: false
+  Sound: ''
+
+
+# Title Options
+joinTitle:
+  Enabled: true
+  Title: '%prefix%'
+  SubTitle: '&9Welcome back to the Server, &n%player%&r&9!'
+
+firstJoinTitle:
+  Enabled: true
+  Title: '%prefix%'
+  SubTitle: '&9Welcome to the Server, &n%player%&r&9!'
+
+
+# Join/First Join/Quit Command Options
+# (Supports Placeholders)
+joinCommand:
+  Enabled: false
+  Command: ''
+  
+joinConsoleCommand:
+  Enabled: false
+  Command: ''
+  
+firstJoinCommand:
+  Enabled: false
+  Command: ''
+
+firstJoinConsoleCommand:
+  Enabled: false
+  Command: ''
+  
+quitCommand:
+  Enabled: false
+  Command: ''
+
+quitConsoleCommand:
+  Enabled: false
+  Command: ''
+
+
+# Other Options
+
+# Clear the players inventory when they join
+inventoryClearJoin: false
+
+# Set the players health level when they join
+# Level 20 = All Hearts
+# Level 2 = 1 Heart
+# Level 1 = Half a Heart
+Health:
+  Enabled: false
+  Level: 20
+
+# Set the player hunger level when they join
+# Level 20 = All Hunger
+# Level 2 = 1 Hunger
+# Level 1 = Half a Hunger
+Hunger:
+  Enabled: false
+  Level: 20
+
+
+# Cancelled Events
+
+# Disable players from taking hunger
+hungerDisabled: false
+
+# Disable players from crafting items
+craftingDisabled: false
+
+# Disable players from dropping items
+itemDropDisabled: false
+
+# Disable players from picking up items
+itemPickupDisabled: false
+
+
+# Do NOT touch this or I will steal your dogs food and eat it in front of them. :)
+configVersion: 1

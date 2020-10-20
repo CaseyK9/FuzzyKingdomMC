@@ -1,0 +1,36 @@
+#
+# Language-File created by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-start: "[P]&a Das Plugin wurde erfolgreich aktiviert."
+  plugin-link: "[P]&a Verknüpfung mit&6 %Link%&a erfolgreich!"
+  plugin-update: "[P]&6 %Name%&a hat ein Update:&6 %NewVersion%&a!\n[P]&a Aktuelle Version:&6 %Version%&a!\n[P]&a Neueste Version herunterladen:\n[P]&6 %Path%"
+  plugin-stop: "[P]&a Das Plugin wurde erfolgreich deaktiviert."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "[P]&a Die Einstellungen wurden erfolgreich reloaded."
+  command-permission-error: "[P]&c Du hast keine Rechte auf diesen Befehl!"
+  command-consol-error: "[P]&c Dieser Befehl ist nur für Spieler!"
+  command-gsit-waterlogged-error: "[P]&c Du darfst dich nicht in überschwemmte Blöcke setzen!"
+  command-gsit-blocked-error: "[P]&c Du darfst dich hier nicht setzen!"
+  command-gsit-already-sit-error: "[P]&c Du sitzt bereits!"
+  command-gsit-in-block-error: "[P]&c Du darfst dich nicht in einen Block setzen!"
+  command-gsit-world-error: "[P]&c Du darfst dich in dieser Welt nicht setzen!"
+  command-gsit-on-ground-error: "[P]&c Du darfst dich hier nicht setzen!"
+  command-gsit-sit: "&aNutze deine Schleichen-Taste um aufzustehen"
+  command-glay-blocked-error: "[P]&c Du darfst dich hier nicht hinlegen!"
+  command-glay-already-lay-error: "[P]&c Du liegst bereits!"
+  command-glay-world-error: "[P]&c Du darfst dich in dieser Welt nicht hinlegen!"
+  command-glay-on-ground-error: "[P]&c Du darfst dich hier nicht hinlegen!"
+  command-glay-lay: "&aNutze deine Schleichen-Taste um aufzustehen"
+  command-blocked-error: "[P]&c Du darfst diesen Befehl gerade nicht ausführen!"
+  command-gsittoggle-off: "[P]&a Du kannst dich jetzt wieder durch klicken setzen."
+  command-gsittoggle-on: "[P]&a Du kannst dich jetzt nicht mehr durch klicken setzen."

@@ -1,0 +1,23 @@
+lastAccountName: Lr_selected
+timestamps:
+  login: 1600090408209
+  lastteleport: 1600091982284
+  kits:
+    pvp: 1600091917003
+  logout: 1600091988913
+ipAddress: 25.59.188.205
+lastlocation:
+  world: world
+  x: -1402.1612259317988
+  y: 32.0
+  z: 510.24109727105576
+  yaw: 79.44049
+  pitch: 18.000095
+homes:
+  home:
+    world: world
+    x: -1413.780269806137
+    y: 41.0
+    z: 513.9066126637026
+    yaw: -93.95963
+    pitch: 30.45005

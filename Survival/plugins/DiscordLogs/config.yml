@@ -1,0 +1,15 @@
+serverName: "Survival" #This is mainly for bungee networks
+
+actions:
+  # Set to "" to disable
+  command: "%player% ran command %command%"
+  joined: "%player% joined"
+  kick: "%player% got kicked for %reason%"
+  quit: "%player% quit"
+  chat: "%player% said: %message%"
+  serverOn: "started"
+  serverOff: "stopped"
+  worldSave: "%world% saved"
+ 
+discordMessage: "**%serverName%:** %action%"
+webhookURL: "https://discordapp.com/api/webhooks/756537190493847624/PCPwsdWrd2B8FefnkHYxxXhjO9ReMZhspOSIcf5prb51O6uKQzVUrEztrKpMdnZgCRs_"

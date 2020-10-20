@@ -1,0 +1,25 @@
+lastAccountName: DisketteFurry
+timestamps:
+  login: 1600695326697
+  logout: 1600695353660
+  lastteleport: 1600443945763
+  kits:
+    notch: 1600089246754
+    pvp: 1600091876352
+    dtools: 1600089254283
+    tools: 1600089264964
+ipAddress: 1.2.174.217
+logoutlocation:
+  world: world
+  x: 145.68309007371866
+  y: 66.58117892067567
+  z: 548.385407779594
+  yaw: 286.23993
+  pitch: 48.44993
+lastlocation:
+  world: world
+  x: 143.3331317277346
+  y: 74.0
+  z: 534.9492703033372
+  yaw: 8.588135
+  pitch: 25.949917

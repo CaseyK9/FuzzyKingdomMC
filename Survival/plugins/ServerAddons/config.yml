@@ -1,0 +1,18 @@
+#ServerAddons Config.yml
+
+Discord_Link: config.yml
+
+Apply_Header: Apply for staff!
+
+Apply_Link: config.yml
+
+Rules_Header: Rules
+
+Rules_List:
+  - 'No cheating'
+  - 'No toxicity'
+
+JoinMessage: '&eWelcome to the server %Player%!'
+
+LeaveMessage: '&e%Player% left the server!'
+

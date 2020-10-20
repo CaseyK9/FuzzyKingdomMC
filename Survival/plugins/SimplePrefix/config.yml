@@ -1,0 +1,31 @@
+Auto-Update: true
+Use-Vault: false
+debug-mode: false
+OPs-have-all: false
+Use-UUID: false
+Template:
+  format: '[prefix] [name] [suffix] '
+  time: '[h:mm aa]'
+  multiPrefix: true
+  multiPrefixSeparator: '&r, '
+  multiSuffix: true
+  multiSuffixSeparator: '&r-'
+Worlds:
+  world:
+    nickname: '&e[World]&f'
+Group:
+  example:
+    prefix: '&a[Example]&f'
+    suffix: ''
+    tier: exampleTier
+User:
+  Notch:
+    prefix: '&c[Notch]&f'
+  HyenaLtd:
+    prefix: '&8&l[&r&b&l#&r&a&l&o&nOUTBIDDED&r&8&l]'
+    suffix: '&8&l[&r&c&kiiii&r&c&l&o&nFOU&b&l&o&nN&f&l&o&nDER&f&kiiii&r&8&l]&r'
+  91271f2f-553b-322a-beb1-94d6028ed57d:
+    suffix: '&8&l[&r&c&kiiii&r&c&l&o&nFOU&b&l&o&nN&f&l&o&nDER&f&kiiii&r&8&l]&r'
+  AMROtheProtogen:
+    prefix: '&8&l[&r&a&l&b&nProtogen&r&8&l | &cAdmin&8&l]'
+Version: 2.5.1

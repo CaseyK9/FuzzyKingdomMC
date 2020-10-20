@@ -1,0 +1,36 @@
+#
+# Language-File created by:		Rinne_owo & hpwriterkyle
+#
+  
+  
+  
+Plugin:
+  
+  plugin-start: "[P]&a 插件启动成功了."
+  plugin-link: "[P]&6 %Link%&a 的链接成功适用了哦!"
+  plugin-update: "[P]&a 这个插件有一个新版本:&6 %NewVersion%&a!\n[P]&a 您正在运行在:&6 %Version%&a!\n [P]&a下载新版本：\n[P]&6%Path%"
+  plugin-stop: "[P]&a 插件暂时因为关服而关闭了呢."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "[P]&a 设置成功重置."
+  command-permission-error: "[P]&c 你不能允许执行此命令呢!"
+  command-consol-error: "[P]&c 这个插件是给玩家使用的啦!"
+  command-gsit-waterlogged-error: "[P]&c 你不能坐在水上哦!"
+  command-gsit-blocked-error: "[P]&c 你不能坐在这里呢!"
+  command-gsit-already-sit-error: "[P]&c 你现在已经在坐着了呀!"
+  command-gsit-in-block-error: "[P]&c 你不能坐在方块里面!"
+  command-gsit-world-error: "[P]&c 你不能在这个世界坐下!"
+  command-gsit-on-ground-error: "[P]&c 你不能在这里坐下!"
+  command-gsit-sit: "&a按着潜行键就站起来就可以啦"
+  command-glay-blocked-error: "[P]&c 别再这里躺下!"
+  command-glay-already-lay-error: "[P]&c 你什么时候忘记已经躺下了呀!"
+  command-glay-world-error: "[P]&c 这个世界有一个不让人躺着的诅咒!"
+  command-glay-on-ground-error: "[P]&c 这块地傲娇得不让你躺!"
+  command-glay-lay: "&a按着潜行键就站起来就可以啦"
+  command-blocked-error: "[P]&c 您现在不能执行此命令!"
+  command-gsittoggle-off: "[P]&a 你现在就可以通过点击来让你站得起来."
+  command-gsittoggle-on: "[P]&a 你不再可以通过点击让你站得起来啦."

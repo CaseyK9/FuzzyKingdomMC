@@ -1,0 +1,22 @@
+pack:
+  name: Shapes
+  author: LaxWasHere
+  website: https://www.spigotmc.org/resources/33217/
+  version: 0.1
+  enabled: true
+genders:
+  Circle:
+    description: The circle is a shape that can be made by tracing a curve that is
+      always the same distance from a point that we call the center.  The distance
+      around a circle is called the circumference of the circle.
+  Rectangle:
+    description: The rectangle is a shape that has 4 sides.  The distinguishing characteristic
+      of a rectangle is that all 4 angles measure 90 degrees.
+  Triangle:
+    description: The triangle is a shape that is formed by 3 straight lines that are
+      called sides.  There are different ways of classifying triangles, according
+      to their sides or angles.
+  Square:
+    description: The square is a type of rectangle, but also a type of rhombus. It
+      has characteristics of both of these. That is to say, all 4 angles are right
+      angles, and all 4 sides are equal in length.

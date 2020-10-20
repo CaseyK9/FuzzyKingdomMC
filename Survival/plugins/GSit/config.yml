@@ -1,0 +1,115 @@
+Lang:
+  
+  # Defines the Plugin-Language
+  lang: en_en
+  
+  
+  
+Options:
+  
+  # Checks if a new Update got released
+  check-for-update: true
+  
+  Sit:
+    
+    # Defines whether the Player gets centered on a Block if he sits down
+    sit-at-block-center: true
+    
+    # Defines whether a Player can click on Stairs to sit down
+    sit-on-stairs-by-click: true
+    
+    # Defines whether a Player can click on Slabs to sit down
+    sit-on-slabs-by-click: true
+    
+    # Defines whether a Player can click on Carpets to sit down
+    sit-on-carpets-by-click: true
+    
+    # Defines whether a Player can sit in Block-Constellation where he probably take Damage
+    sit-in-block: false
+    
+    # Defines whether the Player can sit in a waterlogged Block
+    sit-in-waterlogged-block: true
+    
+    # Defines whether a Player gets kicked from his Seat if the Holder-Block gets destroyed
+    stand-up-on-block-break: true
+    
+    # Defines whether the Player get teleported back to the Location from where he start sitting when he stand up
+    back-to-stand-location: false
+    
+    # Defines whether more than one Player can sit on one Block
+    sit-on-same-block: false
+    
+    # Defines whether the Player needs a free Hand to click and sit down
+    sit-only-with-free-hand: true
+    
+    # Defines the maximum Range from where a Player can sit down (0 means unlimited)
+    max-distance: 0.00
+    
+    # Defines how fast a Seat calculate his Rotation to the Player-Rotation
+    seat-rotation-ticks: 2
+    
+    # Defines whether a Player who gets pushed by a Piston will be pushed through all Blocks to the end of the Blockline
+    strong-piston-push: false
+    
+    # Defines whether a Player should get a custom Message when he sit down
+    send-custom-sit-message: true
+    
+    PlayerSit:
+      
+      # Defines whether a Player can click on another Player to sit on him
+      allow-player-sit-on-player: false
+      
+      # Defines whether a Player can click on an NPC to sit on him
+      allow-player-sit-on-npc: false
+      
+      # Defines the maximum Amount of Players who can sit stacked (0 means unlimited)
+      max-player-sit-amount: 0
+      
+      # Defines whether all Players will be ejected when the Carrier sneaks
+      eject-players-with-sneak: true
+      
+      
+      
+  Lay:
+    
+    # Defines whether the Player gets centered on a Block if he lays down
+    lay-at-block-center: true
+    
+    # Defines whether a Player gets kicked from this Lay-Position if the Holder-Block gets destroyed
+    stand-up-on-block-break: true
+    
+    # Defines whether more then one Player can lay on one Block
+    lay-on-same-block: true
+    
+    # Defines whether a Player should get a custom Message when he lay down
+    send-custom-lay-message: true
+    
+    # Defines whether a Player can interact with his Environment while lying down
+    lay-player-can-interact: false
+    
+    # Defines whether a Player makes snoring noises while lying down
+    lay-play-snoring-sounds: true
+    
+    # Defines whether snoring noises only occur at night
+    play-snoring-only-at-night: true
+    
+    # Defined, the quiet time between two snoring noises
+    snoring-sound-ticks: 80
+    
+    
+    
+  # Defines the Worlds in which a Player cannot sit or lay
+  WorldBlacklist:
+  - "test_world_1"
+  - "test_world_2"
+  
+  # Defines the List of Material on which a Player cannot sit or lay (Write the Names in upper case)
+  MaterialBlackList:
+  - "BEDROCK"
+  
+  # Defines the List of Commands which cannot be executed while sitting or lying down (Write the Commands in lower case)
+  BlockedCommandList:
+  - "testcommand"
+  
+  # Defines whether a Player gets up when he take Damage
+  stand-up-on-damage: true

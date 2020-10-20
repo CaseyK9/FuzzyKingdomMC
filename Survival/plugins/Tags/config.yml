@@ -1,0 +1,12 @@
+config:
+  base_command: tag
+  placeholder: tag
+  permissions:
+    create_permission: tag.create
+    colored_permission: tag.color
+    admin_permission: tag.admin
+  max-length: 20
+  cost: 100
+  default_color: '&7'
+  blacklist:
+  - owner

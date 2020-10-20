@@ -1,0 +1,15 @@
+pack:
+  name: Hogwarts
+  author: LaxWasHere
+  website: https://www.spigotmc.org/resources/33217/
+  version: 0.1
+  enabled: true
+genders:
+  Gryffindor:
+    description: '&cBravery &6Daring &cChivalry &6Courage'
+  Hufflepuff:
+    description: '&6Loyalty &8Kindness &6Honesty &8Friendship'
+  Ravenclaw:
+    description: '&9Intelligence &bWisdom &9Creativity &bOriginality'
+  Slytherin:
+    description: '&aCunning &7Ambitious &aDetermined &7Leadership'

@@ -1,0 +1,54 @@
+# OPENAUDIOMC+
+# Most settings have been moved to OpenAudioMc-Plus!
+# You can login by typing /openaudiomc plus
+# Old legacy client settings have been migrated and ware now in there, along with your old settings!
+
+messages:
+  suggest-connection: '&eYou are currently missing out on some sounds! connect with
+    the audio client via /audio'
+  preparing-session: '&7&oGenerating audio session..'
+  click-to-connect: '&bClick here to connect to the online audio client'
+  session-error: '&4an error occurred while generating your audio session. please
+    report the problem and try again later.'
+  click-to-connect-hover: '&6Minecraft will prompt you to open the web client when
+    you click this message'
+  click-link-expired: '&3Your link to the audio client has expired. Use /audio to
+    request a new one.'
+  client-opened: '&2You are now connected with the audio client!'
+  client-closed: '&4You closed the web client!'
+  client-already-connected: '&4You are already connected to the web client'
+  client-volume-change: '&6Your volume has been changed to __amount__%'
+  client-volume-invalid: '&4You must enter a number between 0 and 100'
+  client-not-connected: '&4You need to be connected to the web client to be able to
+    do that'
+  call-ringing: '&2You have a pending voice call! please check your web client to
+    answer'
+  call-left: '&4Your current voice call got ended. You can now talk to yourself in
+    peace again.'
+  api-starting-up: '&3The connection is still setting up. Please try again in a few
+    seconds.'
+options:
+  plus-access-level: STAFF
+  send-on-join: true
+  remind-to-connect: true
+  remind-to-connect-interval: 30
+  speaker-radius: 10
+  sync-speakers: true
+  sync-regions: true
+  use-region-priority: false
+  staff-tips: true
+  notify-updates: true
+  notify-announcements: true
+redis:
+  enabled: false
+  host: localhost
+  port: 6379
+  password: none
+  useSSL: false
+  section: event
+keyset:
+  server-ip: 70.160.74.147
+  server-cc: US
+  private: ee8d7a8f-0bb2-4835-ada0-93069f44e2db
+  public: 8b55e726-fef0-4eda-8b74-fa38ccb288b7
+  key-version: 3

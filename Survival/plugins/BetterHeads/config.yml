@@ -1,0 +1,112 @@
+#          ___      _   _           _  _             _
+#         | _ ) ___| |_| |_ ___ _ _| || |___ __ _ __| |___
+#         | _ \/ -_)  _|  _/ -_) '_| __ / -_) _` / _` (_-<
+#         |___/\___|\__|\__\___|_| |_||_\___\__,_\__,_/__/
+#                           by AlonsoAliaga
+#          https://www.spigotmc.org/resources/authors/281176/
+Messages:
+  No-permission: '&cYou don''t have permission to do this.'
+  Reloaded: '&aSome messages and options have been reloaded. Other may require a restart!'
+  Invalid-player: '&cPlayer is not online!'
+  Invalid-head-id: '&cInvalid head id provided!'
+  Invalid-category: '&cInvalid category provided!'
+  Invalid-number: '&cAmount is not valid!'
+  Not-enough-levels: '&cYou don''t have enough levels to purchase this head! You need
+    {COST} level(s).'
+  Not-enough-money: '&cYou don''t have enough money to purchase this head. You need
+    ${COST}.'
+  Not-enough-material: '&cYou don''t have enough materials to purchase this head.
+    You need {COST} {MATERIAL}.'
+  Purchased-levels: '&eYou purchased &b{NAME}&e head using {COST} level(s).'
+  Purchased-money: '&eYou purchased &b{NAME}&e head using ${COST}.'
+  Purchased-material: '&eYou purchased &b{NAME}&e head using {COST} {MATERIAL}.'
+  Help:
+    Admin:
+    - '&4&l /betterheads &r&f- &cOpen heads GUI'
+    - '&4&l /betterheads get <head-id> &r&f- &cGet head with specific ID'
+    - '&4&l /betterheads giverandom <player> <category> <amount> &r&f- &cGive random
+      heads from category'
+    - '&4&l /betterheads open <player> &r&f- &cOpen heads GUI for player'
+    - '&4&l /betterheads build <player> <texture> &r&f- &cBuild head for player with
+      texture'
+    - '&4&l /betterheads reload &r&f- &cReload configuration (Not heads)'
+    User:
+    - '&4&l /betterheads &r&f- &cOpen heads GUI'
+  Build:
+    Head-name: '&eBetterHead'
+    Success: '&aYou built a custom head for {TARGET}.'
+    Success-other: '&6You received a custom head!'
+    Success-other-extra: '&aYou received a custom head. You didn''t have enough space,
+      some items were thrown in the floor!'
+  Get:
+    Success: '&eYou received &b{HEAD}&e head!'
+  Cooldown:
+    Please-wait: '&cYou are getting heads too fast! Please wait {TIME} to get more.'
+  Give-random:
+    Sent-random: '&aYou sent {AMOUNT} random heads to {PLAYER}.'
+    Received-random: '&aYou received {AMOUNT} random heads!'
+    Received-random-extra: '&aYou received {AMOUNT} random heads. Your inventory was
+      full, check the floor!'
+Permissions:
+  Admin: betterheads.admin
+  Free: betterheads.free
+  Cooldown-bypass: betterheads.cooldownbypass
+  Heads: none
+Options:
+  Gui:
+    Main-title: '&8Available heads'
+    Category-title: '&8Category: {CATEGORY} ({PAGE}/{MAX})'
+    Hide-locked: true
+    Fill-with-frame: true
+    Items:
+      Previous:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+        Displayname: '&9Previous page'
+        Lore:
+        - '&7Return to previous page.'
+      Next:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+        Displayname: '&9Next page'
+        Lore:
+        - '&7Move to next page.'
+      Unknown:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiYTYzMzQ0ZjQ5ZGQxYzRmNTQ4OGU5MjZiZjNkOWUyYjI5OTE2YTZjNTBkNjEwYmI0MGE1MjczZGM4YzgyIn19fQ==
+        Displayname: '&4&lUnknown category'
+        Lore:
+        - '&7You haven''t unlocked'
+        - '&7this category.'
+      Close:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+        Displayname: '&4&lClose'
+        Lore:
+        - '&7Close Heads GUI.'
+      Back:
+        Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+        Displayname: '&4&lBack'
+        Lore:
+        - '&7Back to GUI.'
+      Category:
+        Displayname: '&b&l{CATEGORY}'
+        Lore:
+        - '&7{AMOUNT} heads!'
+  Head:
+    Displayname: '&e{NAME}'
+    Displayname-id: '&e{NAME}&r &8{ID}'
+    Lore:
+    - '&7Cost: &a{PRICE} level(s)'
+  Head-cost:
+    Enabled: true
+    Cost-on-creative: false
+    Type: LEVEL
+    Material: DIAMOND
+    Cost: 1
+  Cooldown:
+    Cooldown-on-creative: false
+    Time: 5
+Updates:
+  Auto-update-configuration: true
+  Check-updates: true
+  Notify-updates: true
+  Permission: betterheads.update
+  Message: '&3[BetterHeads] &eA new update has been found! You are using version {CURRENT}.
+    Download version {NEW} here &c{LINK}'

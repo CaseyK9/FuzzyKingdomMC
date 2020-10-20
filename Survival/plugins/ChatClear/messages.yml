@@ -1,0 +1,6 @@
+Messages:
+  Prefix: '&7[&aChatClear&7] '
+  NoPermission: '&cYou don''t have permission this command!'
+  ChatClear: '&6ChatClear is successfully By &7%player%'
+  NoConsole: '&cYou must be a player to use this command!'
+  ConfigReload: '&aSuccessfully reloaded Config!'

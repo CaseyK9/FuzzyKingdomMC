@@ -1,0 +1,156 @@
+# Default FeatherBoard comes with a board called "default". All players have the permission
+# featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+# the permission is negated.
+
+# Example of the use of settings
+# This section is optional
+settings:
+  # If you quickly want to change the
+  # the label color change it here.
+  # It replaces $setting_label-color$ throughout the entire config
+  label-color: "&e"
+  # Show or hide the health
+  # This is an example of the script
+  show-health: true
+  # The priority of the scoreboard. The higher the number -> higher priority
+  # Used when having more than one scoreboard assigned
+  priority: 10
+
+# Example of pre processing script
+# This section is optional
+script-pre: |
+    if (settings['show-health'] == true){
+        board.getMeta().setSetting("enable-health","");
+    }else{
+        board.getMeta().setSetting("enable-health","|disabled|");
+    }
+
+# This section is required. Those are your scoreboard lines
+lines:
+  # Every section here are different lines. The first section will be used as the title
+  # the following sections will be used as the lines on the scoreboard (max 15)
+  # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+  # things simple I will use logical names such as "title", "spacer", "header", ...
+  title:
+    # Every line has its own frames. The animation will loop through these frames on intervals
+    # that you configure below.
+    # Put all your frames under 'text:'. You can make as many lines as you want and use
+    # placeholders and preset effects.
+    # Keep in mind that there is a limit in line width!
+    frames:
+    # To create cool looking animations you create yourself
+    # you can use the graphical tool AnimationCreator
+    # https://www.spigotmc.org/resources/animationcreator.6001/
+    # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+    # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+    - '<single><delay times="10">&l><</delay></single>'
+    - '<single>&f&ler</single>' # <single> will allow the frame to only run ONCE
+    - '<single>&f&lherB</single>'
+    - '<single>&f&lherBo</single>'
+    - '<single>&f&latherBoa</single>'
+    - '<single>&f&leatherBoar</single>'
+    - ' <delay times="15">&f&lFe&4&l4&f&ltherBoard</delay>' # <delay> will repeat the line X times
+    #- '<glow glowsize="5">FeatherBoard</glow>' # This is the basic glow effect without custom colors
+    - '<glow glowsize="5" startglowcolor="&c&l" glowcolor="&4&l" endglowcolor="&c&l" normalcolor="&f&l">FeatherBoard</glow>'
+    # Interval is the animation interval in TICKS (20 ticks is one second).
+    # Every X ticks the animation goes to the next frame (see above)
+    # Once all frames are finished it will start over from the first one
+    interval: 2
+    # If you don't want a static order of the frames and want to show each frame at random
+    # you can enable this option.
+    random: false
+  # A scoreboard is dynamic. The lines can change length due to smaller placeholders or scrolling text.
+  # that is why it is advised to have something on your scoreboard that is bigger then all other lines.
+  # These lines (usually a header or footer) are also good for decoration.
+  header:
+    frames:
+    - '<rainbow>&m+---------------------+</rainbow>'
+    interval: 10
+    random: true
+  player-label:
+    frames:
+    - '&b&l> $setting_label-color$&lPlayer Info:'
+    interval: 100
+    random: false
+  player-line1:
+    frames:
+    - '&o<cmd repeatmiddle="20">{player}</cmd>'
+    - '&o<cmd repeatmiddle="20">{locale}</cmd>'
+    interval: 2
+    random: false
+  player-line2:
+    frames:
+    - '{ping} &7ms latency'
+    interval: 2
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  spacer1:
+    frames: []
+    interval: 100
+    random: false
+  news-info:
+    frames:
+    - '&b&l> $setting_label-color$&lNews:'
+    interval: 100
+    random: false
+  news:
+    # Lets create some animated news
+    # News is something you need to write quick
+    # and usually you don't want to spend ages on creating
+    # some cool effect. That is why FeatherBoard features
+    # several presets you can use.
+    frames:
+    - '<scroll width="29">&cAttention! &7Please do not forget to give this plugin a &e{star_galaxy}{star_galaxy}{star_galaxy}{star_galaxy}{star_galaxy}&7 rating!</scroll>'
+    interval: 2 # When using preset effects. The interval will apply to that effect
+    # Do you want to randomize the animation frames?
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  spacer2:
+    frames: []
+    interval: 100
+    random: false
+  timesplayed-label: #Switch between site, times played and health
+    text:
+    - '&b&l> $setting_label-color$&lSite:'
+    - '&b&l> $setting_label-color$&lPlayed:'
+    - '$setting_enable-health$&b&l> $setting_label-color$&lHealth:'
+    interval: 100
+    random: false
+  timesplayed: #Switch between site, times played and health
+    frames:
+    - 'www.mvdw-software.com'
+    - '{stat_timesplayed}'
+    - '$setting_enable-health${healthbar}'
+    interval: 100
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  spacer3:
+    frames: []
+    interval: 100
+    random: false
+  server-label:
+    frames:
+    - '&b&l> $setting_label-color$&lServer Info:'
+    interval: 100
+    random: false
+  server-line1:
+    frames:
+    - '<repeat times=200>{usedram} &7MB &8&l/ &f{totalram} &7MB</repeat>' #Refresh the ram 200 times
+    - '<repeat times=100>{tps_rounded} &7TPS &7&o(Avg {avgtps_rounded})</repeat>' #Refresh the tps 100 times
+    interval: 1
+    random: false
+  server-line2:
+    frames:
+    - '{onlineplayers} &aonline players'
+    interval: 10
+    random: false
+  # This is the same as the header. It is not needed since you already use the header as the longest line
+  # but it looks cleaner having a footer.
+  footer:
+    frames:
+    - '<rainbow>&m+---------------------+</rainbow>'
+    interval: 10
+    random: true
