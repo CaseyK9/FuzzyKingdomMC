@@ -1,6 +1,0 @@
-nbtInjector:
-  enabled: false
-bStats:
-  enabled: true
-updateCheck:
-  enabled: true

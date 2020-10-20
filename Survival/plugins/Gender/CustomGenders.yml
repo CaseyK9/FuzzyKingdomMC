@@ -1,9 +1,0 @@
-#Sample Gender, Please follow the format.
-#
-#genders:
-#  Male:
-#    description: "Male Gender"
-#    pronoun: 'He'
-#  Female:
-#    description: "Female Gender"
-#    pronoun: 'She'

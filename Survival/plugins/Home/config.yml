@@ -1,5 +1,0 @@
-#If you want to other players set/remove another player home, put true, if not put false.
-home_others: true
-#On true, when you join in the server, you will tp to your home.
-join_tp_home: true
-savedlocations:
