@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "45d1d32e-699e-4f76-80d4-dff847fadd02",
+    "name": "Accept",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8a234b89-5edb-3000-9571-5cbb3235981e",
+    "name": "DisketteFurry",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "91271f2f-553b-322a-beb1-94d6028ed57d",
+    "name": "HyenaLtd",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "99f54d51-8741-390e-adf6-3ba9e8f6f769",
+    "name": "Lr_selected",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fea20495-1483-3c12-81ac-69b2791bf75d",
+    "name": "RealFact346",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "365f8266-13e8-3e9d-b186-fea04265fbaf",
+    "name": "AMROtheProtogen",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
